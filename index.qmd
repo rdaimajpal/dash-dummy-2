@@ -1,0 +1,47 @@
+---
+title: "Home"
+format: html
+---
+
+```{r, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+dashboardr::.page_config(accessibility = TRUE, crosstab_prefix = "home")
+```
+
+```{r setup}
+#| echo: false
+#| warning: false
+#| message: false
+#| error: false
+#| results: 'hide'
+
+# Load dashboardr (includes dplyr, highcharter as dependencies)
+library(dashboardr)
+
+# Global chunk options
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  error = FALSE,
+  fig.width = 12,
+  fig.height = 8,
+  dpi = 300
+)
+
+```
+
+
+# Project
+
+## About the dataset:
+
+
+
+This dashboard created using the dummydata dataset
+
+## About the Dashboard
+
+
+
+This dataset is an interactive platform that allows users to explore the dummydata dataset
+
